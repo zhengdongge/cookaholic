@@ -1,0 +1,60 @@
+body {
+    overflow: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    color: #202020;
+}
+
+.col-1 {
+    width: 100%;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.col-3 {
+    width: 33.3%;
+}
+
+.col-4 {
+    width: 25%;
+}
+
+.col-5 {
+    width: 20%;
+}
+
+.col-6 {
+    width: 16.5%;
+}
+.mast-login-box {
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    z-index: 10;
+}
+
+.mast-login-box a {
+    color: #717171;
+    padding: 0 5px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.imgslide {
+    height: 478px;
+    width: 880px;
+    position: relative;
+    overflow: hidden;
+}
+
+.imgslide li,
+.imgslide2 li,
+.imgslide3 li,
+.imgslide4 li,
+.imgslide5 li {
+    float: left;
+}
